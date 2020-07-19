@@ -1,19 +1,20 @@
-package com.wonderworcer.vehicle;
+package com.wonderworcer.vehicle.model;
 
-public class Bus extends Vehicle {
-    public Bus(String name, int amountOfWheel, int maxSpeed, String uniqueStat) {
-        super(name, amountOfWheel, maxSpeed, uniqueStat);
-    }
-
+public class Car extends Vehicle {
     @Override
     public String getName() {
         return super.getName();
+    }
+
+    public Car(String name, int amountOfWheel, int maxSpeed, String uniqueStat) {
+        super(name, amountOfWheel, maxSpeed, uniqueStat);
     }
 
     @Override
     public void setName(String name) {
         super.setName(name);
     }
+
 
     @Override
     public int getAmountOfWheel() {

@@ -1,7 +1,9 @@
-package com.wonderworcer.vehicle;
+package com.wonderworcer.vehicle.model;
 
-public class Scooter extends Vehicle {
-    public Scooter(String name, int amountOfWheel, int maxSpeed, String uniqueStat) {
+import com.wonderworcer.vehicle.model.Vehicle;
+
+public class Motorcycle extends Vehicle {
+    public Motorcycle(String name, int amountOfWheel, int maxSpeed, String uniqueStat) {
         super(name, amountOfWheel, maxSpeed, uniqueStat);
     }
 

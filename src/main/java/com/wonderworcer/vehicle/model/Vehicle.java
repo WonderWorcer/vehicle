@@ -1,4 +1,4 @@
-package com.wonderworcer.vehicle;
+package com.wonderworcer.vehicle.model;
 
 public class Vehicle {
     private String name;

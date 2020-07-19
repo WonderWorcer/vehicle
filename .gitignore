@@ -1,9 +1,7 @@
-../NewsGenerator/.idea/
+.idea/
 .gradle/
 build/
 out/
 logs/
 *.iml
 .ipr
-classes/
-.idea_modules
